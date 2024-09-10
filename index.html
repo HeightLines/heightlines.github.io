@@ -28,6 +28,13 @@
         a:hover {
             text-decoration: underline;
         }
+        .question {
+            font-weight: bold;
+            margin-top: 20px;
+        }
+        .answer {
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 <body>
@@ -36,18 +43,34 @@
         <img width="20%" src="/frames_view.png" alt="App Screenshot">
     </div>
     <h1>Height Lines</h1>
-    Convenient logging of the human surface anatomy.
+        Simple observations for your wellness.
     <br>
     <br>
     <p>
-        Tracking changes in the body leads to early detection of anomalies. HeightLines is an app to easily scan and search your own body using your phone's camera. 
+        An app that shows you the long-term and miniscule changes in your body so you know what is working for you and what is not.
     </p>
     <br>
-    <p>
-        The app currently relies on the computer vision backend and PostgreSQL DB running locally. Reach out on github if you want to use it in the current form. 
-    </p>
-    <p><a href='/blog'>Updates</a></p>
-    
+    <p><a style="text-decoration: none;" href="https://buy.stripe.com/test_cN217wcdwbVEgF2aEE">Checkout link</a> for early access.</p>
+    <br>
+    <div class="question">How do I use it?</div>
+    <div class="answer">You simply talk to the app and use your phone's camera to show it the things you want to keep track of.</div>
+     
+    <div class="question">Is it only iOS?</div>
+    <div class="answer">Early access is only for the iOS app. You can register below for other platforms.</div>
+
+    <div class="question">Is it free?</div>
+    <div class="answer">Not yet.</div>
+ 
+    <div class="question">What is the tech behind?</div>
+    <div class="answer">It uses language models and computer vision to understand the camera input and communicate with you in natural language.</div>
+
+    <div class="question">Does it work offline?</div>
+    <div class="answer">It is meant to be an offline app. One of the models is not yet quantized to run on metal so it uses cloud compute for that bit.</div>
+
+    <br>
+
+    <p>You can also just message me or register <a style="text-decoration: none;" href="https://buy.stripe.com/test_4gw5nMa5o2l49cA7st">here</a> if you're interested to use it in other platforms or get a binary executable.</p>
+
 </div>
 </body>
 </html>
