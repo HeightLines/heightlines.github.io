@@ -1,0 +1,51 @@
+body {
+    font-family: monospace;
+    background-color: #fff9ed;
+    color: #333;
+    padding: 20px;
+    line-height: 1.4;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.dark-mode {
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+}
+
+a {
+    color: #007bff;
+}
+a:hover {
+    text-decoration: underline;
+}
+.question {
+    font-weight: bold;
+    margin-top: 20px;
+}
+.answer {
+    margin-bottom: 20px;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.nav-bar {
+    text-align: right;
+    margin-bottom: 20px;
+}
+.nav-bar a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+}
+.nav-bar a:hover {
+    text-decoration: underline;
+}
+
+.nav-bar span {
+    cursor: pointer;
+    font-size: 14px;
+}
+
